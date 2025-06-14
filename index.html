@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="carregar()">
+    <header class="cabecalho">
+        <div class="top"></div>
+        <div class="header">
+            <div class="logo">Logo</div>
+            <div class="container">
+                <div class="menu">
+                    <div class="hamburguer" onclick="clicar()">
+                        <div class="items" id="item1"></div>
+                        <div class="items" id="item2"></div>
+                        <div class="items" id="item3"></div>
+                    </div>
+                    <div class="lista">
+                        <ul>
+                            <li><a class="list" href="#inicio">Início</a></li>
+                            <li><a class="list" href="#sobre">Sobre</a></li>
+                            <li><a class="list" href="#cursos">Cursos</a></li>
+                            <li><a class="list" href="login.html">Login</a></li>
+                            <li><a id="cadastro" href="cadastro.html">Cadastre-se</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        </div>
+    </header>
+    <main>
+        <div class="inicio" id="inicio">
+            <div>
+                <div class="side">
+                    <div class="texto">
+                        <h1>Seja Bem-vindo!</h1>
+                        <p>Venha ser um amigo do conhecimento, e nunca mais vais parar!</p>
+                        <a class="btn entrar" href="login.html">Fazer Login</a>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="imagens/estudo-cadastro.svg" alt="ConhecimentoAmigo">
+                </div>
+            </div>
+        </div>
+        <div class="cursos" id="cursos">
+            <div class="texto">
+                <h1>Cursos da Plataforma</h1>
+                <p>Diversos cursos para escolheres!</p>
+                <p>Escolha o curso que desejas, e embarque connosco nesta nesta maravilhosa imersão de estudos!</p>
+            </div>
+            <div class="grupo-cursos">
+                <div class="mover">
+                    <img src="me/imagens/voltar.svg" alt="" srcset="">
+                    <img src="me/imagens/avancar.svg"" alt="" srcset="">
+                </div>
+                <div class="curso-list">
+                    <div class="c1">
+                        <div class="img"></div>
+                        <div class="nome">Matemática</div>
+                        <div class="descricao">Curso de matemática, aprenda connosco os conceitos aprofundados de matemática e aprenda também a pensar como um matemático.</div>
+                    </div>
+                    <div class="c2">
+                        <div class="img"></div>
+                        <div class="nome">Física</div>
+                        <div class="descricao">Curso de física, aprenderás aqui desde física</div>
+                    </div>
+                    <div class="c3">
+                        <div class="img"></div>
+                        <div class="nome">Química</div>
+                        <div class="descricao">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim nesciunt quidem debitis provident. Repellat sunt voluptatem dicta optio illo libero doloremque, incidunt laborum consequatur eaque, sed laudantium similique iste labore?</div>
+                    </div>
+                </div>
+                <div class="ver-mais">
+                    <input type="button" value="Ver todos cursos" class="button">
+                </div>
+            </div>
+        </div>
+        <div class="sobre" id="sobre">
+            <div>
+                <div class="inform1">
+                    <div class="texto">VENHA APRENDER E DESCOBRIR O MUNDO QUE TE ESPERA!</div>
+                    <div class="img"><img src="imagens/estudo-cadastro.svg" alt=""></div>
+                </div>
+                <div class="inform2">
+                    <div class="img"><img src="imagens/estudo-cadastro.svg" alt=""></div>
+                    <div class="texto">CONHEÇA A PLATAFORMA E APRENDA MAIS!</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-contact">
+                <h1>LOGO</h1>
+                <p>Venha saber com saber mais...</p>
+
+                <div class="footer-social-midia">
+                    <a href="#" class="footer-link" id="facebook">
+                        <i></i>
+                    </a>
+                    <a href="#" class="footer-link" id="instagram">
+                        <i></i>
+                    </a>
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i></i>
+                    </a>
+                </div>
+            </div>
+            <ul class="footer-list">
+                <li>
+                    <h3>Blog</h3>
+                </li>
+                <li><a href="" class="footer-link">Tecnologia</a></li>
+                <li><a href="" class="footer-link">Aventuras</a></li>
+                <li><a href="" class="footer-link">Música</a></li>
+            </ul>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Produtos</h3>
+                </li>
+                <li><a href="" class="footer-link">App</a></li>
+                <li><a href="" class="footer-link">Produtos</a></li>
+                <li><a href="" class="footer-link">Mensagens</a></li>
+            </ul>
+
+            <div class="footer-subscribe">
+                <h3>Subscrever</h3>
+                <p>Subscreva-te para não perder as notícias sobre os cursos e a dinâmica do nosso ensino... Cadastre-se também!
+                </p>
+
+                <div class="input-group">
+                    <input type="email" name="" id="">
+                    <button>
+                        <i>ENVIAR</i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
